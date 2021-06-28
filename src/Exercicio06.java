@@ -31,8 +31,9 @@ public class Exercicio06 {
 			System.out.print("O preço final do produto é: R$" + precoFinal);
 			break;
 		}
+		leitor.close();
 	}
-
+	
 }
 
 
