@@ -36,7 +36,7 @@ public class Exercicio04 {
 			}
 			break;
 		case 2: 
-			System.out.println("Por favor, informe a distância em metros: ");
+			System.out.println("Por favor, informe a distância em centímetros: ");
 			dist = leitor.nextDouble();
 			
 			if(dist < 70.0) {
@@ -50,7 +50,7 @@ public class Exercicio04 {
 			}
 			break;
 		case 3: 
-			System.out.println("Por favor, informe a distância em metros: ");
+			System.out.println("Por favor, informe a distância em milímetros: ");
 			dist = leitor.nextDouble();
 			dist = dist / 10.0;
 			
